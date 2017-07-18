@@ -3,4 +3,26 @@ h1{
 }
 html{
     font-family:sans-serif;
+    color:green;
+    border-style:solid;
+    border-color:blue;
+}
+.todo{
+    font-weight:bold;
+    color:#F44336;
+    background-color:#008000;
+    border-radius:50px;
+    font-size:14px;
+    padding:5px 10px 5px 10px;
+}
+#submit-button{
+    color:green;
+}
+#submit-button:active{
+    box-shadow:1px 1px 1px;
+    color:#90A4AE;
+}
+li{
+    padding:5px;
+    margin-bottom:10px;
 }
