@@ -3,20 +3,20 @@ h1{
 }
 html{
     font-family:sans-serif;
-    color:green;
+    color:000000;
     border-style:solid;
-    border-color:blue;
+    border-color:#000000;
 }
 .todo{
     font-weight:bold;
-    color:#F44336;
-    background-color:#008000;
+    color:#FFFFFF;
+    background-color:#00008B;
     border-radius:50px;
     font-size:14px;
     padding:5px 10px 5px 10px;
 }
 #submit-button{
-    color:green;
+    color:#9932C2;
 }
 #submit-button:active{
     box-shadow:1px 1px 1px;
