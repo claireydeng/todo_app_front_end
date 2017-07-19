@@ -1,11 +1,11 @@
 h1{
-    border-style:solid;
+    border-style: solid;
     border-color: black;
     border-width: 5px;
     display: inline;
 }
 .buttons{
-    position:absolute;
-    top:1000px;
+    position: absolute;
+    top: 1000px;
     color: green;
 }
