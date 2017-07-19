@@ -2,29 +2,29 @@
 <html>
     <head>
         <title>Todo List Application</title>
-        <link href="index.css" type="text/css"rel="stylesheet">
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <!-- link your show.css and other css files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <h1>Todo List Application</h1>
         <ul>
             <li> 
                 <input type="checkbox"> 
-                <a href="show.html">Finish essay</a>
-                <span class="todo">Finish essay 7/20/17</span>
+                <span class="todo"><a href="show.html">Finish essay 7/20/17</a></span>
             </li>
             <li> 
                 <input type="checkbox">
-                <a href="dinner.html">Make dinner</a>
-                <span class="todo">Make dinner 5:00pm</span>
+                <span class="todo"><a href="dinner.html">Make dinner 5:00pm</a></span>
             </li>
             <li> 
                 <input type="checkbox">
-                <a href="cello.html">Play cello</a>
-                <span class="todo">Play cello 2:00pm</span>
+                <span class="todo"><a href="cello.html">Play cello 2:00pm</a></span>
             </li>
         </ul>
-        <div id="New todo block">
-            <input type="text" placeholder="Enter task">
+        <div id="new-todo-block">
+            <input id="enter-task" type="text" placeholder="Enter task">
             <input id="submit-button" type="submit" value="Add todo">
         </div>
     </body>
