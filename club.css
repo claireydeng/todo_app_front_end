@@ -1,0 +1,22 @@
+.buttons{
+    font-weight: bold;
+    color: #000000;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    background-color: #ffb6c1;
+}
+.clubhtml{
+    border-style: double;
+    border-color: #ADD8E6;
+    border-width: 30px;
+}
+body{
+    background-image: url(https://c2.q-assets.com/images/products/p/wpx/wpx-248_3z.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px 1250px
+}
+html{
+    text-align: center;
+}
